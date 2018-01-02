@@ -1,5 +1,5 @@
 # BulkPostTumblr
-This is a command-line python script which can be used to upload multipe images on Tumblr blogs.
+This is a python script which can be used to upload multipe images on Tumblr blogs.
 ## Prerequisites
 * Python 3.x
 * Python pytumblr module
@@ -24,7 +24,7 @@ client = pytumblr.TumblrRestClient(
 )
 
 ```
-3. To post the images on your tumblr blog copy paste the images to ```/images``` folder 
+3. To post the images on your tumblr blog copy paste the images to ```/images``` folder and execute the command as shown below.
 ```
 python3 BulkPostTumblr.py -b <blog_url>
 ```
