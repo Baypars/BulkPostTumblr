@@ -30,7 +30,7 @@ python3 BulkPostTumblr.py -b <blog_url>
 ```
     or 
 ```
-python3 linkExtract.py --blog=<blog_url> 
+python3 BulkPostTumblr.py --blog=<blog_url> 
 ```
 4. For displaying the help menu use the following command.
 ```
