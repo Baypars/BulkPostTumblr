@@ -14,7 +14,7 @@ git clone https://github.com/kshithijiyer/BulkPostTumblr.git
 cd BulkPostTumblr
 
 ```
-And Create a application in https://api.tumblr.com/console/calls/user/info  and modify the credentails as show below on ```BulkPostTumblr.py``` file as show below.
+And Create a application in https://api.tumblr.com/console/calls/user/info  and modify the credentails as show below on ```BulkPostTumblr.py``` file.
 ```
 client = pytumblr.TumblrRestClient(
     '<consumer_key>',
