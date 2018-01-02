@@ -37,7 +37,9 @@ def main(argv):
         elif opt in ("-b", "--blog"):
             blog_name = arg
         
+        #chaning working dir
         os.chdir("images/")
+        
         #Taking the images from images/ dir and posting them on the blog.
         for file in glob.glob("*.jpeg"):
             print(file)
