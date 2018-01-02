@@ -17,11 +17,12 @@ def main(argv):
     blog_name=''
     #Put your tumblr credentials here.
     client = pytumblr.TumblrRestClient(
-      'GkJg77ak3iNaxRU0mRs1C5omrXhDlbU1XMBGwxS0fIwbxCVdvS',
-      'ao7SR6yIuh8De0EPOo6osNsNWOW8OIXDL8LDLPOcZJ8DCikzKf',
-      'GRZO9iCEOBZT3Rt3tqt8gKBoE2wGCAvgAK61NOrRXYouuIMBVC',
-      'TWQLPZIaCxXtDqkH91lYei5QQxHGma6QFlECTaxg65i9hsdWsd'
+    '<consumer_key>',
+    '<consumer_secret>',
+    '<oauth_token>',
+    '<oauth_secret>',
     )
+
 
     try:
         opts, args = getopt.getopt(argv,"hb:",["blog="])
